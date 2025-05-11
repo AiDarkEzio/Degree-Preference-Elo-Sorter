@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A powerful tool to rank ETech degree programs or your own custom list based on personal preference using an Elo rating system. Compare options side-by-side and build your personalized sorted list.">
+    <meta name="keywords" content="degree sorter, program ranking, ETech, university courses, course preference, Elo rating, JavaScript, personal ranking, decision making tool, particle background">
+    <title>ETech Degree Program Sorter</title>
+    <link rel="icon" href="./media/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <h1>ETech Degree Program Preference Sorter</h1>
+            <p><b>2024-AL (SFT, ET, ICT) </b><br>Click on the program you prefer between the two options presented to rank them.</p>
+        </header>
+
+        <section id="statistics-section">
+            <h2>Statistics</h2>
+            <div id="stats-content">
+                <p>Loading statistics...</p>
+            </div>
+        </section>
+
+        <section id="comparison-section">
+            <h2>Which do you prefer?</h2>
+            <div class="comparison-area">
+                <div class="option-card" id="optionA">
+                    <h3 id="optionAName">Loading...</h3>
+                    <p>Rating: <span id="optionARating">...</span></p>
+                    <button id="selectAButton">Select this</button>
+                </div>
+                <div class="vs">VS</div>
+                <div class="option-card" id="optionB">
+                    <h3 id="optionBName">Loading...</h3>
+                    <p>Rating: <span id="optionBRating">...</span></p>
+                    <button id="selectBButton">Select this</button>
+                </div>
+            </div>
+            <p id="comparison-count">Comparisons made: 0</p>
+        </section>
+
+        <section id="sorted-list-section">
+            <h2>Your Preferred Programs (Ranked based on selection)</h2>
+            <button id="settingsButton">Settings</button>
+            <button id="downloadJsonButton">Download Sorted JSON</button>
+            <button id="resetRatingsButton">Reset All Ratings</button>
+            <ul id="sorted-degrees-list">
+                <!-- Degree items will be populated here -->
+            </ul>
+        </section>
+
+        <footer>
+            <p>Elo-like rating system for personal preference. </p>
+            <p>© 2023-2025 Subhadra Poshitha. All rights reserved.</p>
+            <div class="footer-social-links">
+                <a href="https://www.youtube.com/channel/UCeDeaDD8dpdMT2gO3VHY1JQ" target="_blank" rel="noopener noreferrer"
+                class=""><i class="fab fa-youtube"></i></a>
+                <a href="https://t.me/Subadra_Poshitha" target="_blank" rel="noopener noreferrer"
+                class=""><i class="fab fa-telegram"></i></a>
+                <a href="mailto:subadraposhithapr@gmail.com"
+                class=""><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/AiDarkEzio" target="_blank" rel="noopener noreferrer"
+                class=""><i class="fab fa-github"></i></a>
+            </div>
+            <img align="right" src="https://komarev.com/ghpvc/?username=aidarkezio-Degree-Preference-Elo-Sorter&label=Project%20views&color=blueviolet&style=flat" alt="Degree-Preference-Elo-Sorter" />
+        </footer>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span id="closeSettingsModal" class="close-button">×</span>
+            <h2>Settings</h2>
+            
+            <div class="setting-item">
+                <h3>Program Selection</h3>
+                <p>Select which programs to include in the comparison and ranking process. Unselected programs will retain their ratings but won't be shown for comparison or in the main sorted list unless the download option is chosen.</p>
+                <div id="program-selection-controls">
+                    <button id="selectAllProgramsButton">Select All</button>
+                    <button id="deselectAllProgramsButton">Deselect All</button>
+                </div>
+                <div id="program-checkbox-list-container">
+                    <div id="program-checkbox-list">
+                        <p>Loading programs...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-item">
+                <h3>Download Options</h3>
+                <label for="includeUnselectedToggle">Include unselected programs in JSON download (they will appear at the bottom, with their current ratings):</label>
+                <input type="checkbox" id="includeUnselectedToggle">
+            </div>
+            
+            <button id="applySettingsButton">Apply Settings & Update</button>
+        </div>
+    </div>
+
+    <!-- tsParticles library -->
+    <script src="script.js"></script>
+    <script src="particles-config.js"></script>
+</body>
+</html>

@@ -1,0 +1,356 @@
+:root {
+    --bg-color: #1a1a2e;
+    /* --card-bg-color: #16213e; */ /* Will be replaced by rgba for transparency */
+    --card-bg-color-rgb: 22, 33, 62; /* RGB values for #16213e */
+    --primary-color: #0f3460;
+    --primary-color-rgb: 15, 52, 96; /* ADDED: RGB values for --primary-color */
+    --secondary-color: #e94560;
+    --text-color: #e0e0e0;
+    --text-muted-color: #a0a0a0;
+    --border-color: #2c3e50;
+    --accent-color: #537895;
+    --button-hover-bg: #1f4068;
+    --green-hue: 120;
+    --red-hue: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(var(--card-bg-color-rgb), 0.85); /* #16213e with 85% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative; /* Needed for z-index to work correctly */
+    z-index: 2;       /* Ensure container is above particles */
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted-color);
+}
+
+h2 {
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#stats-content p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.comparison-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vs {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--secondary-color);
+    padding: 0 20px;
+}
+
+.option-card {
+    /* background-color: var(--primary-color); */ /* Original */
+    background-color: rgba(var(--primary-color-rgb), 0.8); /* MODIFIED: Made semi-transparent (80% opacity) */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.option-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    min-height: 40px;
+    color: var(--text-color);
+}
+
+.option-card p {
+    font-size: 0.9em;
+    color: var(--text-muted-color);
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+#downloadJsonButton, #resetRatingsButton, #settingsButton,
+#applySettingsButton, #selectAllProgramsButton, #deselectAllProgramsButton {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    background-color: var(--accent-color);
+}
+#downloadJsonButton:hover, #resetRatingsButton:hover, #settingsButton:hover,
+#applySettingsButton:hover, #selectAllProgramsButton:hover, #deselectAllProgramsButton:hover {
+    background-color: var(--button-hover-bg);
+}
+
+
+#sorted-degrees-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sorted-degrees-list li {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.degree-details {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.degree-details:hover .degree-name {
+    color: var(--secondary-color);
+}
+
+#sorted-degrees-list li .degree-name {
+    flex-grow: 1;
+    transition: color 0.2s;
+}
+
+#sorted-degrees-list li .degree-rating {
+    font-weight: bold;
+    margin-left: 15px;
+    min-width: 60px;
+    text-align: right;
+}
+
+.copy-button {
+    background: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-muted-color);
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    line-height: 1;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    flex-shrink: 0;
+}
+.copy-button:hover {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+.copy-button.copied {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+
+#comparison-count {
+    text-align: center;
+    color: var(--text-muted-color);
+    font-style: italic;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000; /* Ensure modal is on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* Semi-transparent black overlay for modal background */
+}
+
+.modal-content {
+    background-color: rgba(var(--card-bg-color-rgb), 0.95); /* #16213e with 95% opacity */
+    margin: 5% auto;
+    padding: 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 750px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    position: relative; /* Stacking context for close button */
+}
+
+.close-button {
+    color: var(--text-muted-color);
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: var(--secondary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.setting-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+.setting-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.setting-item h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.setting-item > p {
+    font-size: 0.9em;
+    color: var(--text-muted-color);
+    margin-bottom: 10px;
+}
+
+#program-selection-controls {
+    margin-bottom: 10px;
+}
+
+#program-checkbox-list-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 4px;
+    /* background-color: var(--bg-color); */ /* Original */
+    background-color: rgba(var(--card-bg-color-rgb), 0.75); /* MODIFIED: Using card's base color with 75% opacity for more visibility */
+}
+
+#program-checkbox-list label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 6px 8px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+#program-checkbox-list label:hover {
+    background-color: var(--primary-color); /* This hover will be opaque, which is fine */
+}
+
+#program-checkbox-list input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+    transform: scale(1.1);
+}
+#includeUnselectedToggle {
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9em;
+    color: var(--text-muted-color);
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.footer-social-links {
+    margin-top: 15px;
+}
+
+.footer-social-links a {
+    display: inline-block;
+    color: var(--text-muted-color);
+    margin: 0 12px;
+    font-size: 1.7em;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.footer-social-links a:hover {
+    color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+
+.footer-social-links a:hover .fa-youtube { color: #FF0000; }
+.footer-social-links a:hover .fa-telegram { color: #0088cc; }
+.footer-social-links a:hover .fa-github { color: var(--text-color); }
+.footer-social-links a:hover .fa-envelope { color: var(--accent-color); }

@@ -1,0 +1,416 @@
+[
+  {
+    "degree_code": "022",
+    "degree_name": "Management studies TV",
+    "university_name": "University of Vavuniya",
+    "university_code": "022R",
+    "more_info_link": "/detail?id=022R",
+    "degree_university": "Management studies TV - University of Vavuniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "022",
+    "degree_name": "Management studies TV",
+    "university_name": "Trincomalee Campus - Eastern University",
+    "university_code": "022W",
+    "more_info_link": "/detail?id=022W",
+    "degree_university": "Management studies TV - Trincomalee Campus - Eastern University",
+    "rating": 1000
+  },
+  {
+    "degree_code": "024",
+    "degree_name": "Design",
+    "university_name": "University of Moratuwa",
+    "university_code": "024G",
+    "more_info_link": "/detail?id=024G",
+    "degree_university": "Design - University of Moratuwa",
+    "rating": 1000
+  },
+  {
+    "degree_code": "031",
+    "degree_name": "BA Honours in Peace and Conflict Resolution",
+    "university_name": "University of Kelaniya",
+    "university_code": "031D",
+    "more_info_link": "/detail?id=031D",
+    "degree_university": "BA Honours in Peace and Conflict Resolution - University of Kelaniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "034",
+    "degree_name": "Fashion Design and Product Development",
+    "university_name": "University of Moratuwa",
+    "university_code": "034G",
+    "more_info_link": "/detail?id=034G",
+    "degree_university": "Fashion Design and Product Development - University of Moratuwa",
+    "rating": 1000
+  },
+  {
+    "degree_code": "038",
+    "degree_name": "Information and Communication Technology",
+    "university_name": "Rajarata University of Sri Lanka",
+    "university_code": "038K",
+    "more_info_link": "/detail?id=038K",
+    "degree_university": "Information and Communication Technology - Rajarata University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "038",
+    "degree_name": "Information and Communication Technology",
+    "university_name": "University of Vavuniya",
+    "university_code": "038R",
+    "more_info_link": "/detail?id=038R",
+    "degree_university": "Information and Communication Technology - University of Vavuniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "075",
+    "degree_name": "Industrial Information Technology",
+    "university_name": "Uva Wellassa University of Sri Lanka",
+    "university_code": "075U",
+    "more_info_link": "/detail?id=075U",
+    "degree_university": "Industrial Information Technology - Uva Wellassa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "079",
+    "degree_name": "Management and Information Technology",
+    "university_name": "South Eastern University of Sri Lanka",
+    "university_code": "079J",
+    "more_info_link": "/detail?id=079J",
+    "degree_university": "Management and Information Technology - South Eastern University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "081",
+    "degree_name": "Physical Education",
+    "university_name": "University of Jaffna",
+    "university_code": "081E",
+    "more_info_link": "/detail?id=081E",
+    "degree_university": "Physical Education - University of Jaffna",
+    "rating": 1000
+  },
+  {
+    "degree_code": "082",
+    "degree_name": "Sports Science and Management",
+    "university_name": "University of Sri Jayewardenepura",
+    "university_code": "082C",
+    "more_info_link": "/detail?id=082C",
+    "degree_university": "Sports Science and Management - University of Sri Jayewardenepura",
+    "rating": 1000
+  },
+  {
+    "degree_code": "082",
+    "degree_name": "Sports Science and Management",
+    "university_name": "University of Kelaniya",
+    "university_code": "082D",
+    "more_info_link": "/detail?id=082D",
+    "degree_university": "Sports Science and Management - University of Kelaniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "082",
+    "degree_name": "Sports Science and Management",
+    "university_name": "sabaragamuwa University of Sri Lanka",
+    "university_code": "082L",
+    "more_info_link": "/detail?id=082L",
+    "degree_university": "Sports Science and Management - sabaragamuwa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "096",
+    "degree_name": "Information Systems",
+    "university_name": "University of Sri Jayewardenepura",
+    "university_code": "096C",
+    "more_info_link": "/detail?id=096C",
+    "degree_university": "Information Systems - University of Sri Jayewardenepura",
+    "rating": 1000
+  },
+  {
+    "degree_code": "096",
+    "degree_name": "Information Systems",
+    "university_name": "sabaragamuwa University of Sri Lanka",
+    "university_code": "096L",
+    "more_info_link": "/detail?id=096L",
+    "degree_university": "Information Systems - sabaragamuwa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "096",
+    "degree_name": "Information Systems",
+    "university_name": "University of Colombo School of Computing",
+    "university_code": "096T",
+    "more_info_link": "/detail?id=096T",
+    "degree_university": "Information Systems - University of Colombo School of Computing",
+    "rating": 1000
+  },
+  {
+    "degree_code": "100",
+    "degree_name": "Film and Television Studies",
+    "university_name": "University of Kelaniya",
+    "university_code": "100D",
+    "more_info_link": "/detail?id=100D",
+    "degree_university": "Film and Television Studies - University of Kelaniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "101",
+    "degree_name": "Project Management",
+    "university_name": "University of Vavuniya",
+    "university_code": "101R",
+    "more_info_link": "/detail?id=101R",
+    "degree_university": "Project Management - University of Vavuniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "University of Colombo",
+    "university_code": "102A",
+    "more_info_link": "/detail?id=102A",
+    "degree_university": "Engineering Technology - University of Colombo",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "University of Sri Jayewardenepura",
+    "university_code": "102C",
+    "more_info_link": "/detail?id=102C",
+    "degree_university": "Engineering Technology - University of Sri Jayewardenepura",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "University of Kelaniya",
+    "university_code": "102D",
+    "more_info_link": "/detail?id=102D",
+    "degree_university": "Engineering Technology - University of Kelaniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "University of Jaffna",
+    "university_code": "102E",
+    "more_info_link": "/detail?id=102E",
+    "degree_university": "Engineering Technology - University of Jaffna",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "University of Ruhuna",
+    "university_code": "102F",
+    "more_info_link": "/detail?id=102F",
+    "degree_university": "Engineering Technology - University of Ruhuna",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "Rajarata University of Sri Lanka",
+    "university_code": "102K",
+    "more_info_link": "/detail?id=102K",
+    "degree_university": "Engineering Technology - Rajarata University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "sabaragamuwa University of Sri Lanka",
+    "university_code": "102L",
+    "more_info_link": "/detail?id=102L",
+    "degree_university": "Engineering Technology - sabaragamuwa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "Wayamba University of Sri Lanka",
+    "university_code": "102M",
+    "more_info_link": "/detail?id=102M",
+    "degree_university": "Engineering Technology - Wayamba University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "102",
+    "degree_name": "Engineering Technology",
+    "university_name": "Uva Wellassa University of Sri Lanka",
+    "university_code": "102U",
+    "more_info_link": "/detail?id=102U",
+    "degree_university": "Engineering Technology - Uva Wellassa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "University of Colombo",
+    "university_code": "104A",
+    "more_info_link": "/detail?id=104A",
+    "degree_university": "Information Communication Technology - University of Colombo",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "University of Sri Jayewardenepura",
+    "university_code": "104C",
+    "more_info_link": "/detail?id=104C",
+    "degree_university": "Information Communication Technology - University of Sri Jayewardenepura",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "University of Kelaniya",
+    "university_code": "104D",
+    "more_info_link": "/detail?id=104D",
+    "degree_university": "Information Communication Technology - University of Kelaniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "University of Ruhuna",
+    "university_code": "104F",
+    "more_info_link": "/detail?id=104F",
+    "degree_university": "Information Communication Technology - University of Ruhuna",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "Eastern University, Sri Lanka",
+    "university_code": "104H",
+    "more_info_link": "/detail?id=104H",
+    "degree_university": "Information Communication Technology - Eastern University, Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "South Eastern University of Sri Lanka",
+    "university_code": "104J",
+    "more_info_link": "/detail?id=104J",
+    "degree_university": "Information Communication Technology - South Eastern University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "Rajarata University of Sri Lanka",
+    "university_code": "104K",
+    "more_info_link": "/detail?id=104K",
+    "degree_university": "Information Communication Technology - Rajarata University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "University of Vavuniya",
+    "university_code": "104R",
+    "more_info_link": "/detail?id=104R",
+    "degree_university": "Information Communication Technology - University of Vavuniya",
+    "rating": 1000
+  },
+  {
+    "degree_code": "104",
+    "degree_name": "Information Communication Technology",
+    "university_name": "Uva Wellassa University of Sri Lanka",
+    "university_code": "104U",
+    "more_info_link": "/detail?id=104U",
+    "degree_university": "Information Communication Technology - Uva Wellassa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "114",
+    "degree_name": "Human Resource Development",
+    "university_name": "Uva Wellassa University of Sri Lanka",
+    "university_code": "114U",
+    "more_info_link": "/detail?id=114U",
+    "degree_university": "Human Resource Development - Uva Wellassa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "121",
+    "degree_name": "Health Information and Communication Technology",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "121P",
+    "more_info_link": "/detail?id=121P",
+    "degree_university": "Health Information and Communication Technology - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  },
+  {
+    "degree_code": "122",
+    "degree_name": "Health Tourism and Hospitality Management",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "122P",
+    "more_info_link": "/detail?id=122P",
+    "degree_university": "Health Tourism and Hospitality Management - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  },
+  {
+    "degree_code": "123",
+    "degree_name": "Biomedical Technology",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "123P",
+    "more_info_link": "/detail?id=123P",
+    "degree_university": "Biomedical Technology - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  },
+  {
+    "degree_code": "124",
+    "degree_name": "Indigenous Pharmaceutical Technology",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "124P",
+    "more_info_link": "/detail?id=124P",
+    "degree_university": "Indigenous Pharmaceutical Technology - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  },
+  {
+    "degree_code": "125",
+    "degree_name": "Yoga and Parapsychology",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "125P",
+    "more_info_link": "/detail?id=125P",
+    "degree_university": "Yoga and Parapsychology - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  },
+  {
+    "degree_code": "126",
+    "degree_name": "Social Studies in Indigenous Knowledge",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "126P",
+    "more_info_link": "/detail?id=126P",
+    "degree_university": "Social Studies in Indigenous Knowledge - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  },
+  {
+    "degree_code": "132",
+    "degree_name": "English Language and Applied Linguistics",
+    "university_name": "Uva Wellassa University of Sri Lanka",
+    "university_code": "132U",
+    "more_info_link": "/detail?id=132U",
+    "degree_university": "English Language and Applied Linguistics - Uva Wellassa University of Sri Lanka",
+    "rating": 1000
+  },
+  {
+    "degree_code": "134",
+    "degree_name": "Creative Music Technology and Production",
+    "university_name": "University of Sri Jayewardenepura",
+    "university_code": "134C",
+    "more_info_link": "/detail?id=134C",
+    "degree_university": "Creative Music Technology and Production - University of Sri Jayewardenepura",
+    "rating": 1000
+  },
+  {
+    "degree_code": "140",
+    "degree_name": "Service Management",
+    "university_name": "Gampaha Wickramarachchi University of Indigenous Medicine",
+    "university_code": "140P",
+    "more_info_link": "/detail?id=140P",
+    "degree_university": "Service Management - Gampaha Wickramarachchi University of Indigenous Medicine",
+    "rating": 1000
+  }
+]
