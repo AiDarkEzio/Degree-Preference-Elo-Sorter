@@ -2,7 +2,7 @@
 
 A client-side web application that allows users to rank degree programs (or any list of items) based on their personal preferences using an Elo-like rating system. Compare two options at a time, and the system will build a dynamically sorted list reflecting your choices.
 
-This project only has 2024 AL ETech university schoolership couses. (Sri Lanka)
+**This project only has 2024 AL ETech university schoolership couses. (Sri Lanka)**
 
 The current example data focuses on "ETech Degree Programs" in Sri Lanka, but the `initialJsonData` in `script.js` can be easily modified for any set of items you wish to rank.
 
